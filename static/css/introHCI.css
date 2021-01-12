@@ -9,12 +9,69 @@
 	color: #CC00AA;
 }
 
-/* this style exists to make it obvious that you've successfully linked
-   the CSS to the page. feel free to remove it once the link is working. */
-body {
-     border: 1px dotted gray;
-     padding: 20px;
+/* everything */ 
+*{ 
+     background-color: #333333;
+     font-family: "Montserrat";
 }
+
+/* header */ 
+#header .header-container {
+     padding-top: 45px;
+     padding-bottom: 45px;;
+     text-align: center;
+     font-size: 25px;
+     color: crimson;
+}
+
+/* Products Section */ 
+#projects .projects-header h1 {
+     text-align: center;
+     font-size: 40px;
+     color: #aec6cf ;
+}
+#projects .all-projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#projects .project-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
+#projects .project-info {
+	padding: 30px;
+	flex-basis: 50%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+}
+#projects .project-info h1 {
+	font-size: 4rem;
+	font-weight: 600;
+}
+#projects .project-info h2 {
+	font-size: 1.8rem;
+	font-weight: 550;
+	margin-top: 10px;
+}
+
+#projects .project-info p{
+	color: white; 
+}
+
+
+/* End of Products Section */
 
 .jumbotron {
 	position: relative;
